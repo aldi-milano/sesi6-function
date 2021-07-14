@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    height: 10vh;
+    background-image: url(edit.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    height: 100vh;    
+}
+
+#navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+    border-bottom: solid;
+}
+
+#navBar > li {
+    float: left;
+}
+
+#navBar > li > a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20;
+}
+
+#navBar > li :hover {
+    font-weight: bold;
+}
+
+#soal {
+    margin: 30px;
+    height: 90vh;
+}
+
+#header {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#list {
+    list-style-type: lower-alpha;
+}
+
+footer {
+    text-align: center;
+    background-color: red;
+    color: white;
+    margin-top: auto;
+}
+
+footer p {
+    padding: 5px;
+}
